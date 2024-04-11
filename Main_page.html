@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная / GameConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="header__menu" style="position: fixed; top: 0; width: 100%; z-index: 2;">
+                <button class="header__logo" onclick="window.location = 'Main_page.html'">
+                    <img src="images/icon_main.svg" height="56px" width="56px" style="margin-top: 0.05%; margin-left: -5.8%; border-radius: 10px;"> 
+                    <h1 class="Header-h1-main"> Главная </h1>
+                </button>
+                <div class="header__stroka">
+                    <!-- Придумать разные случайные новости на строку-->
+                    <marquee>Новости на сегодня: Сегодня в техникуме показывают свои сайты!</marquee>
+                </div>
+                <button class="header__mypage" onclick="window.location = 'My_page.html'">
+                    <img src="images/фото_пользователя.svg" height="48px" width="48px">
+                    <h3 style="color: white;">Kraft Hammer</h3>
+                </button>
+            </div>
+        </div>
+        <!--TODO: заменить иконки на цветные через фигму-->
+    <div class="side_menu">
+        <button onclick="window.location = 'Main_page.html'">
+            <img src="./images/главная.svg"> 
+            <p>Главная</p>
+        </button> 
+        <button onclick="window.location = 'sms.html'">
+            <img src="./images/сообщения.svg">
+            <p>Сообщения</p>
+        </button> 
+        <button onclick="window.location = 'Friends.html'">
+            <img src="./images/друзья.svg">
+            <p>Друзья</p>
+        </button> 
+        <button onclick="window.location = 'Groups.html'">
+            <img src="./images/группы.svg">
+            <p>Сообщества</p>
+        </button> 
+        <button onclick="window.location = 'Settings.html'">
+            <img src="./images/настройки.svg">
+            <p>Настройки</p>
+        </button> 
+    </div>
+
+    <div class="Setting_words">
+                <h5>Выбор языка</h5>
+                <h5>Справка по сайту</h5>
+                <h5>Разработчикам</h5>
+            </div>
+
+        <!-- Это код для картинки по центру, картинка меняется здесь же! (background-image)-->
+        <div class="meme_top">
+            <h2 style="margin-left: 2%; margin-top: 2%;">Обзор на новую игру! CONTENT WARNING! </h2>
+            <h4 style="margin-left: 2%; margin-top: 1%;">Новое видео которое я записал с друзьями! /ссылка в коммах/</h4>
+        </div>
+            <div class="meme_center" style="background-image: url(images/17122486761324696740.jpg); background-size:cover; z-index: 1">
+                <div class="meme_bottom_space">
+                    <!-- Добавить онклик для смены иконки сердечка на лайкнутое при нажатии и наоборот-->
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 2%;">
+                        <img class="img__object" src="images/нравится.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 55%;">
+                        <img src="images/комментарии.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/Рейтинг_вверх.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/рейтинг_вниз.svg" width="30px" height="30px">
+                    </button>
+                </div>
+            </div>
+            
+            <div class="meme_top">
+                <h2 style="margin-left: 2%; margin-top: 2%;">Леонид Каневский</h2>
+                <h4 style="margin-left: 2%; margin-top: 1%;">находиться в добром здравии!</h4>
+            </div>
+            <div class="meme_center" style="background-image: url(images/ff52fa4b08f04bc9ba2baed7ca7371d3.jpg); background-size:cover; z-index: 1">
+                <div class="meme_bottom_space">
+                    <!-- Добавить онклик для смены иконки сердечка на лайкнутое при нажатии и наоборот-->
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 2%;">
+                        <img class="img__object" src="images/нравится.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 55%;">
+                        <img src="images/комментарии.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/Рейтинг_вверх.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/рейтинг_вниз.svg" width="30px" height="30px">
+                    </button>
+                </div>
+            </div>
+
+            <div class="meme_top">
+                <h2 style="margin-left: 2%; margin-top: 2%;">СТРИМ ИГРЫ!</h2>
+                <h4 style="margin-left: 2%; margin-top: 1%;">ЗАЛЕТАЙТЕ ВСЕ НА СТРИМ!!! 👾👾👾</h4>
+            </div>
+            <div class="meme_center" style="background-image: url(images/qJgFk112R9E.jpg); background-size:contain; z-index: 1">
+                <div class="meme_bottom_space">
+                    <!-- Добавить онклик для смены иконки сердечка на лайкнутое при нажатии и наоборот-->
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 2%;">
+                        <img class="img__object" src="images/нравится.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 55%;">
+                        <img src="images/комментарии.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/Рейтинг_вверх.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/рейтинг_вниз.svg" width="30px" height="30px">
+                    </button>
+                </div>
+            </div>
+
+            <div class="meme_top">
+                <h2 style="margin-left: 2%; margin-top: 2%;">Вечернее шоу</h2>
+                <h4 style="margin-left: 2%; margin-top: 1%;">С бородой для самых маленьких</h4>
+            </div>
+            <div class="meme_center" style="background-image: url(images/Безымянный.png); background-size:contain; z-index: 1">
+                <div class="meme_bottom_space">
+                    <!-- Добавить онклик для смены иконки сердечка на лайкнутое при нажатии и наоборот-->
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 2%;">
+                        <img class="img__object" src="images/нравится.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%; margin-left: 55%;">
+                        <img src="images/комментарии.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/Рейтинг_вверх.svg" width="30px" height="30px">
+                    </button>
+                    <button class="objects" style="margin-top: 0.5%">
+                        <img src="images/рейтинг_вниз.svg" width="30px" height="30px">
+                    </button>
+                </div>
+            </div>
+            <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная / GameConnect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="header__menu" style="position: fixed; top: 0; width: 100%; z-index: 2;">
+                <button class="header__logo" onclick="window.location = 'Main_page.html'">
+                    <img src="images/icon_main.svg" height="56px" width="56px" style="margin-top: 0.05%; margin-left: -5.8%; border-radius: 10px;"> 
+                    <h1 class="Header-h1-main"> Главная </h1>
+                </button>
+                <div class="header__stroka">
+                    <!-- Придумать разные случайные новости на строку-->
+                    <marquee>Новости на сегодня: Сегодня в техникуме показывают свои сайты!</marquee>
+                </div>
+                <button class="header__mypage" onclick="window.location = 'My_page.html'">
+                    <img src="images/фото_пользователя.svg" height="48px" width="48px">
+                    <h3 style="color: white;">Kraft Hammer</h3>
+                </button>
+            </div>
+        </div>
+        <!--TODO: заменить иконки на цветные через фигму-->
+        <div class="side_menu">
+            <button onclick="window.location = 'My_page.html'">
+                <img src="images/User_cicrle_light.svg"> 
+                <p>Моя страница</p>
+            </button> 
+            <button onclick="window.location = 'Main_page.html'">
+                <img src="images/главная.svg"> 
+                <p>Главная</p>
+            </button> 
+            <button onclick="window.location = 'sms.html'">
+                <img src="images/сообщения.svg">
+                <p>Сообщения</p>
+            </button> 
+            <button onclick="window.location = 'friends.html'">
+                <img src="images/друзья.svg">
+                <p>Друзья</p>
+            </button> 
+            <button onclick="window.location = 'Groups.html'">
+                <img src="images/группы.svg">
+                <p>Сообщества</p>
+            </button> 
+            <button onclick="window.location = 'Settings.html'">
+                <img src="images/настройки.svg">
+                <p>Настройки</p>
+            </button> 
+        </div>
+
+    <div class="User_page">
+        <div class="User_page_up">
+            <img src="images/fon-quotvarkraftquot-70-foto-38.jpg" width="645px" height="197px" style="border-radius: 20px 20px 0px 0px;">
+            <div class="user_logo">
+                <img src="images/фото_пользователя.svg" width="160px">
+                <h2 style="color: white; margin-top: 5%;">Kraft Hammer</h2>
+                <button class="Edit_button" onclick="window.location = 'Settings.html'"> 
+                Редактировать профиль
+            </button>
+            <button class="Edit_button" 
+                style="width: 150px; position: relative; top: 40px; left: -230px;">
+                    Добавить фото</button>
+                    <button class="Edit_button" 
+                style="width: 150px; position: relative; top: 40px; left: 35px;">
+                    Удалить фото</button>
+            <div class="images"> 
+                <div class="photo"> 
+                    <img src="images/Photo_MyPage1.jpg" /> 
+                </div> 
+          
+                <div class="photo"> 
+                    <img src="images/Photo_MyPage2.jpg" /> 
+                </div> 
+                  
+                <div class="photo"> 
+                    <img style="width: 140%;" src="images/Photo_MyPage3.jpg" /> 
+                </div> 
+            </div> 
+        </div>
+        <div class="create_post">
+            <div class="post_text">
+                    <p>Создать новый пост!</p>
+                    <img style="position: relative; left: 400px; top: -20px;" src="images/Add_ring_duotone.svg">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Setting_words">
+                <h5>Выбор языка</h5>
+                <h5>Справка по сайту</h5>
+                <h5>Разработчикам</h5>
+            </div>
+
+    </body>
+</html>
